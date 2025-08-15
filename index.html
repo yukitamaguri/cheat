@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Link Tampermonkey & Script</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+      color: #e5e7eb;
+    }
+    table {
+      border-collapse: collapse;
+      background: #1e293b;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+    }
+    th {
+      background: #2563eb;
+      color: white;
+      padding: 12px 20px;
+      text-align: left;
+      font-size: 1rem;
+    }
+    td {
+      padding: 12px 20px;
+      border-top: 1px solid #334155;
+      font-size: 0.95rem;
+    }
+    a {
+      text-decoration: none;
+      color: #60a5fa;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+      color: #93c5fd;
+    }
+    /* Tambahan untuk teks pojok bawah kiri */
+    .pojok-bawah {
+      position: fixed;
+      bottom: 10px;
+      left: 10px;
+      background: rgba(255, 255, 255, 0.1);
+      color: #e5e7eb;
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      backdrop-filter: blur(4px);
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <tr>
+      <th>Nama</th>
+      <th>Link</th>
+    </tr>
+    <tr>
+      <td>Tampermonkey</td>
+      <td><a href="https://www.tampermonkey.net/" target="_blank" rel="noopener noreferrer">Buka</a></td>
+    </tr>
+    <tr>
+      <td>Script (GreasyFork)</td>
+      <td><a href="https://greasyfork.org/en/scripts/452934-venge-io-hacks-inf-ammo-aimbot-noclip-invisibility-fly-infjump-venge-hacked-client/code" target="_blank" rel="noopener noreferrer">Buka</a></td>
+    </tr>
+    <tr>
+      <td>venge</td>
+      <td><a href="https://venge.io" target="_blank" rel="noopener noreferrer">Buka</a></td>
+    </tr>
+  </table>
+
+  <!-- Teks pojok kiri bawah -->
+  <div class="pojok-bawah">
+    by: miken
+  </div>
+
+</body>
